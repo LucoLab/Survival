@@ -2,6 +2,8 @@
 Survival Analysis
 =============
 
+https://github.com/LucoLab/Survival
+
 ## Overview
 
 You need two files : 
@@ -36,9 +38,9 @@ It will run survival analysis using SurvivalOctobre. If you need to plot a speci
 
 ```shell
 	
-	#Rscript /home/jean-philippe.villemin/code/RNA-SEQ/Rscript/SurvivalOctobre.R -e $i -m $PWD/MatricePsi_ALL.POLYA.bed_diff_NewgroupsLumBLumABasal.tsv -s /home/jean-philippe.villemin/data/data/PROJECT/SURVIVAL/TCGA_CDR.csv
+	Rscript SurvivalOctobre.R -e $i -m $PWD/MatricePsi_ALL.POLYA.bed_diff_NewgroupsLumBLumABasal.tsv -s /home/jean-philippe.villemin/data/data/PROJECT/SURVIVAL/TCGA_CDR.csv
 
 	#1 : 			#high is blue(A), low is red(B)
-	#Rscript /home/jean-philippe.villemin/code/RNA-SEQ/Rscript/SurvivalV4.R -g "CD44_chr11:35204511-35204640" -e $i -c 1 -m $PWD/MatricePsi_ALL.POLYA.bed_diff_NewgroupsLumBLumABasal.tsv -s /home/jean-philippe.villemin/data/data/PROJECT/SURVIVAL/TCGA_CDR.csv
+	Rscript SurvivalV4.R -g "CD44_chr11:35204511-35204640" -e $i -c 1 -m $PWD/MatricePsi_ALL.POLYA.bed_diff_NewgroupsLumBLumABasal.tsv -s /home/jean-philippe.villemin/data/data/PROJECT/SURVIVAL/TCGA_CDR.csv
 ```	
 
