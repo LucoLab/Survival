@@ -22,7 +22,7 @@ _**SurvivalV4**_ plot survival curve for a specific exon.
 
 _NB_ : matrice.tsv is created on lakitu server using a script that parse all psi files (one for each patient) and filter for a list of exon you want to check.
 
-So here , I give this precomputed matrice for polyA Exons and Ribo0 Exons.
+So here, I give this precomputed matrice for polyA Exons and Ribo0 Exons to check survival in Luminal,Basal TCGA patients.
 
 
 ```shell
@@ -31,9 +31,9 @@ So here , I give this precomputed matrice for polyA Exons and Ribo0 Exons.
 
 ## How it works
 
-In each dir you will find to bash script. You need to modify the path pointing to R script.
+In each dir you will find two bash script (concatPval.sh). You need to modify the path pointing to R script.
 
-It will run survival analysis using SurvivalOctobre. If you need to plot a specific exon, you need to comment SurvivalV4.R.
+They will run survival analysis using SurvivalOctobre. If you need to plot a specific exon, you need to comment SurvivalV4.R and set exon id.
 
 
 ```shell
